@@ -116,7 +116,7 @@
                 {
                     "atomType": "Input",
                     "name": "width",
-                    "x": 0.04,
+                    "x": 0.025384615384615384,
                     "y": 0.6656626506024096,
                     "uniqueID": 1744404114131,
                     "ioValues": [],
@@ -126,7 +126,7 @@
                 {
                     "atomType": "Input",
                     "name": "ply thick",
-                    "x": 0.04,
+                    "x": 0.025384615384615384,
                     "y": 0.5,
                     "uniqueID": 1744404133354,
                     "ioValues": [],
@@ -387,7 +387,7 @@
                         {
                             "atomType": "Input",
                             "name": "ply thick",
-                            "x": 0.04,
+                            "x": 0.025384615384615384,
                             "y": 0.7018072289156627,
                             "uniqueID": 1744381432297,
                             "ioValues": [],
@@ -498,12 +498,12 @@
                             "uniqueID": 1744381646399,
                             "ioValues": [
                                 {
-                                    "name": "geometry2",
-                                    "ioValue": 1744381604510
-                                },
-                                {
                                     "name": "geometry1",
                                     "ioValue": 1744381739308
+                                },
+                                {
+                                    "name": "geometry2",
+                                    "ioValue": 1744381604510
                                 }
                             ],
                             "description": "Subtracts shape two from shape one."
@@ -589,7 +589,7 @@
                         {
                             "atomType": "Input",
                             "name": "height",
-                            "x": 0.04,
+                            "x": 0.025384615384615384,
                             "y": 0.5,
                             "uniqueID": 1744381917934,
                             "ioValues": [],
@@ -794,12 +794,12 @@
                     "uniqueID": 1744382116287,
                     "ioValues": [
                         {
-                            "name": "geometry2",
-                            "ioValue": 1744403695741
-                        },
-                        {
                             "name": "geometry1",
                             "ioValue": 1744381263239
+                        },
+                        {
+                            "name": "geometry2",
+                            "ioValue": 1744403695741
                         }
                     ],
                     "description": "Subtracts shape two from shape one."
@@ -895,7 +895,7 @@
                 {
                     "atomType": "Input",
                     "name": "ply thick",
-                    "x": 0.04,
+                    "x": 0.025384615384615384,
                     "y": 0.7259036144578314,
                     "uniqueID": 1744403707539,
                     "ioValues": [],
@@ -920,7 +920,7 @@
                 {
                     "atomType": "Input",
                     "name": "height",
-                    "x": 0.04,
+                    "x": 0.025384615384615384,
                     "y": 0.5271084337349398,
                     "uniqueID": 1744403784436,
                     "ioValues": [],
@@ -1111,10 +1111,6 @@
                 {
                     "name": "geometry",
                     "ioValue": 1744381251698
-                },
-                {
-                    "name": "Material Thickness",
-                    "ioValue": 1.75
                 },
                 {
                     "name": "Sheet Width",
