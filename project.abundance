@@ -1126,7 +1126,34 @@
                 }
             ],
             "description": "Extracts all parts tagged for cutting and lays them out on a sheet to cut.",
-            "placements": []
+            "placements": [
+                [
+                    {
+                        "id": 1,
+                        "rotate": 120,
+                        "translate": {
+                            "x": 5.00713015997089,
+                            "y": 4.950246754738611
+                        }
+                    },
+                    {
+                        "id": 0,
+                        "rotate": 90,
+                        "translate": {
+                            "x": 5.603544687317047,
+                            "y": 19.821862270822944
+                        }
+                    },
+                    {
+                        "id": 2,
+                        "rotate": 0,
+                        "translate": {
+                            "x": 5.603544695088308,
+                            "y": 33.093871699999994
+                        }
+                    }
+                ]
+            ]
         },
         {
             "atomType": "Assembly",
@@ -1203,6 +1230,6 @@
     ],
     "unitsKey": "Inches",
     "fileTypeVersion": 1,
-    "compiledBom": {},
+    "compiledBom": [],
     "filetypeVersion": 1
 }
