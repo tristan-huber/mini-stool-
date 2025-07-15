@@ -31,7 +31,7 @@
             "ioValues": [
                 {
                     "name": "width",
-                    "ioValue": 19
+                    "ioValue": 11
                 },
                 {
                     "name": "ply thick",
@@ -64,7 +64,7 @@
                     "ioValues": [
                         {
                             "name": "diameter",
-                            "ioValue": 19
+                            "ioValue": 11
                         }
                     ],
                     "description": "Creates a new circle."
