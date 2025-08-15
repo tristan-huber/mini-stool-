@@ -1191,6 +1191,24 @@
                 }
             ],
             "description": "Creates a new regular polygon. Corners are on the diameter."
+        },
+        {
+            "atomType": "Rectangle",
+            "name": "Rectangle",
+            "x": 0.7486979166666666,
+            "y": 0.5885714285714286,
+            "uniqueID": "0f4b5515-c2ad-439b-9ed6-6fc3441621cd",
+            "ioValues": [
+                {
+                    "name": "x length",
+                    "ioValue": 10
+                },
+                {
+                    "name": "y length",
+                    "ioValue": 10
+                }
+            ],
+            "description": "Creates a new rectangle."
         }
     ],
     "allConnectors": [
