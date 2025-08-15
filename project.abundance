@@ -14,7 +14,12 @@
             "x": 0.98,
             "y": 0.5,
             "uniqueID": 1744381235338,
-            "ioValues": [],
+            "ioValues": [
+                {
+                    "name": "number or geometry",
+                    "ioValue": 1744404077436
+                }
+            ],
             "description": "Connect geometry here to make it available in the next level up. "
         },
         {
@@ -59,7 +64,7 @@
                     "ioValues": [
                         {
                             "name": "diameter",
-                            "ioValue": 10
+                            "ioValue": 11
                         }
                     ],
                     "description": "Creates a new circle."
@@ -77,7 +82,7 @@
                         },
                         {
                             "name": "height",
-                            "ioValue": 10
+                            "ioValue": 0.75
                         }
                     ],
                     "description": "Extrudes a 2D shape. Input can be negitive. "
@@ -189,7 +194,12 @@
                     "x": 0.98,
                     "y": 0.5,
                     "uniqueID": 1744381251154,
-                    "ioValues": [],
+                    "ioValues": [
+                        {
+                            "name": "number or geometry",
+                            "ioValue": 1744382061378
+                        }
+                    ],
                     "description": "Connect geometry here to make it available in the next level up. "
                 },
                 {
@@ -238,7 +248,7 @@
                                 },
                                 {
                                     "name": "y length",
-                                    "ioValue": 10
+                                    "ioValue": 12
                                 }
                             ],
                             "description": "Creates a new rectangle."
@@ -270,7 +280,7 @@
                                 },
                                 {
                                     "name": "height",
-                                    "ioValue": 10
+                                    "ioValue": 1
                                 }
                             ],
                             "description": "Extrudes a 2D shape. Input can be negitive. "
@@ -566,7 +576,7 @@
                                 },
                                 {
                                     "name": "zDist",
-                                    "ioValue": 10
+                                    "ioValue": 12
                                 }
                             ],
                             "description": "Moves a shape laterally in X, Y, Z."
@@ -746,7 +756,7 @@
                         },
                         {
                             "name": "Shape 5",
-                            "ioValue": null
+                            "ioValue": 1744403973709
                         }
                     ],
                     "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape"
@@ -778,7 +788,7 @@
                     "ioValues": [
                         {
                             "name": "x length",
-                            "ioValue": 10.1
+                            "ioValue": 0.85
                         },
                         {
                             "name": "y length",
@@ -852,7 +862,7 @@
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 12
+                            "ioValue": 14
                         }
                     ],
                     "description": "Moves a shape laterally in X, Y, Z."
@@ -876,7 +886,7 @@
                     "ioValues": [
                         {
                             "name": "x",
-                            "ioValue": 10
+                            "ioValue": 0.75
                         }
                     ],
                     "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
@@ -901,7 +911,7 @@
                     "ioValues": [
                         {
                             "name": "x",
-                            "ioValue": 10
+                            "ioValue": 12
                         }
                     ],
                     "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
@@ -917,6 +927,10 @@
                         {
                             "name": "geometry",
                             "ioValue": 1744381865542
+                        },
+                        {
+                            "name": "xDist",
+                            "ioValue": 0.375
                         },
                         {
                             "name": "yDist",
@@ -938,7 +952,7 @@
                     "ioValues": [
                         {
                             "name": "x",
-                            "ioValue": 10
+                            "ioValue": 0.75
                         }
                     ],
                     "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
@@ -1054,6 +1068,10 @@
             "uniqueID": 1744404018630,
             "ioValues": [
                 {
+                    "name": "geometry",
+                    "ioValue": 1744381251698
+                },
+                {
                     "name": "Sheet Width",
                     "ioValue": 93
                 },
@@ -1109,7 +1127,7 @@
                 },
                 {
                     "name": "Shape 2",
-                    "ioValue": null
+                    "ioValue": 1744381251698
                 }
             ],
             "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape"
@@ -1137,6 +1155,24 @@
             "allConnectors": [],
             "fileTypeVersion": 1,
             "compiledBom": {}
+        },
+        {
+            "atomType": "Rectangle",
+            "name": "Rectangle",
+            "x": 0.536118363794604,
+            "y": 0.21142857142857144,
+            "uniqueID": "8f73dda3-2937-4bc0-ac7a-d3deaa07c3d9",
+            "ioValues": [
+                {
+                    "name": "x length",
+                    "ioValue": 10
+                },
+                {
+                    "name": "y length",
+                    "ioValue": 11
+                }
+            ],
+            "description": "Creates a new rectangle."
         }
     ],
     "allConnectors": [
