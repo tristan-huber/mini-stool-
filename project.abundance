@@ -138,30 +138,35 @@
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
+                    "ap2Primary": true,
                     "ap1ID": 1744404093344,
                     "ap2ID": 1744404096940
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
+                    "ap2Primary": true,
                     "ap1ID": 1744404096940,
                     "ap2ID": 1744404101080
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "number or geometry",
+                    "ap2Primary": false,
                     "ap1ID": 1744404101080,
                     "ap2ID": 1744381243519
                 },
                 {
                     "ap1Name": "number or geometry",
                     "ap2Name": "diameter",
+                    "ap2Primary": false,
                     "ap1ID": 1744404114131,
                     "ap2ID": 1744404093344
                 },
                 {
                     "ap1Name": "number or geometry",
                     "ap2Name": "height",
+                    "ap2Primary": false,
                     "ap1ID": 1744404133354,
                     "ap2ID": 1744404096940
                 }
@@ -596,120 +601,140 @@
                         {
                             "ap1Name": "geometry",
                             "ap2Name": "Shape 2",
+                            "ap2Primary": false,
                             "ap1ID": 1744381274425,
                             "ap2ID": 1744381291409
                         },
                         {
                             "ap1Name": "geometry",
                             "ap2Name": "geometry",
+                            "ap2Primary": true,
                             "ap1ID": 1744381280472,
                             "ap2ID": 1744381292834
                         },
                         {
                             "ap1Name": "geometry",
                             "ap2Name": "geometry",
+                            "ap2Primary": true,
                             "ap1ID": 1744381286499,
                             "ap2ID": 1744381877647
                         },
                         {
                             "ap1Name": "geometry",
                             "ap2Name": "geometry",
+                            "ap2Primary": true,
                             "ap1ID": 1744381291409,
                             "ap2ID": 1744381369962
                         },
                         {
                             "ap1Name": "geometry",
                             "ap2Name": "geometry",
+                            "ap2Primary": true,
                             "ap1ID": 1744381291409,
                             "ap2ID": 1744381494334
                         },
                         {
                             "ap1Name": "geometry",
                             "ap2Name": "geometry",
+                            "ap2Primary": true,
                             "ap1ID": 1744381291409,
                             "ap2ID": 1744381587361
                         },
                         {
                             "ap1Name": "geometry",
                             "ap2Name": "Shape 1",
+                            "ap2Primary": false,
                             "ap1ID": 1744381292834,
                             "ap2ID": 1744381291409
                         },
                         {
                             "ap1Name": "geometry",
                             "ap2Name": "Shape 6",
+                            "ap2Primary": false,
                             "ap1ID": 1744381369962,
                             "ap2ID": 1744381389276
                         },
                         {
                             "ap1Name": "geometry",
                             "ap2Name": "geometry",
+                            "ap2Primary": true,
                             "ap1ID": 1744381389276,
                             "ap2ID": 1744381286499
                         },
                         {
                             "ap1Name": "number or geometry",
                             "ap2Name": "height",
+                            "ap2Primary": false,
                             "ap1ID": 1744381432297,
                             "ap2ID": 1744381286499
                         },
                         {
                             "ap1Name": "geometry",
                             "ap2Name": "geometry",
+                            "ap2Primary": true,
                             "ap1ID": 1744381456635,
                             "ap2ID": 1744381739308
                         },
                         {
                             "ap1Name": "geometry",
                             "ap2Name": "Shape 5",
+                            "ap2Primary": false,
                             "ap1ID": 1744381494334,
                             "ap2ID": 1744381389276
                         },
                         {
                             "ap1Name": "geometry",
                             "ap2Name": "geometry",
+                            "ap2Primary": true,
                             "ap1ID": 1744381587361,
                             "ap2ID": 1744381604510
                         },
                         {
                             "ap1Name": "geometry",
                             "ap2Name": "geometry2",
+                            "ap2Primary": false,
                             "ap1ID": 1744381604510,
                             "ap2ID": 1744381646399
                         },
                         {
                             "ap1Name": "geometry",
                             "ap2Name": "Shape 7",
+                            "ap2Primary": false,
                             "ap1ID": 1744381646399,
                             "ap2ID": 1744381389276
                         },
                         {
                             "ap1Name": "geometry",
                             "ap2Name": "geometry1",
+                            "ap2Primary": false,
                             "ap1ID": 1744381739308,
                             "ap2ID": 1744381646399
                         },
                         {
                             "ap1Name": "geometry",
                             "ap2Name": "geometry",
+                            "ap2Primary": true,
                             "ap1ID": 1744381877647,
                             "ap2ID": 1744381900475
                         },
                         {
                             "ap1Name": "geometry",
                             "ap2Name": "number or geometry",
+                            "ap2Primary": false,
                             "ap1ID": 1744381900475,
                             "ap2ID": 1744381262778
                         },
                         {
                             "ap1Name": "number or geometry",
                             "ap2Name": "y length",
+                            "ap2Primary": false,
                             "ap1ID": 1744381917934,
                             "ap2ID": 1744381274425
                         },
                         {
                             "ap1Name": "number or geometry",
                             "ap2Name": "zDist",
+                            "ap2Primary": false,
                             "ap1ID": 1744381917934,
                             "ap2ID": 1744381900475
                         }
@@ -961,98 +986,114 @@
             ],
             "allConnectors": [
                 {
-                    "ap1Name": "geometry or number",
+                    "ap1Name": "Geometry",
                     "ap2Name": "geometry",
+                    "ap2Primary": true,
                     "ap1ID": 1744381263239,
                     "ap2ID": 1744381865542
                 },
                 {
-                    "ap1Name": "geometry or number",
+                    "ap1Name": "Geometry",
                     "ap2Name": "geometry1",
+                    "ap2Primary": false,
                     "ap1ID": 1744381263239,
                     "ap2ID": 1744382116287
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
+                    "ap2Primary": true,
                     "ap1ID": 1744381865542,
                     "ap2ID": 1744403973709
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "number or geometry",
+                    "ap2Primary": false,
                     "ap1ID": 1744382061378,
                     "ap2ID": 1744381251154
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "Shape 3",
+                    "ap2Primary": false,
                     "ap1ID": 1744382116287,
                     "ap2ID": 1744382061378
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
+                    "ap2Primary": true,
                     "ap1ID": 1744403653981,
                     "ap2ID": 1744403664408
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
+                    "ap2Primary": true,
                     "ap1ID": 1744403664408,
                     "ap2ID": 1744403677761
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
+                    "ap2Primary": true,
                     "ap1ID": 1744403677761,
                     "ap2ID": 1744403695741
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry2",
+                    "ap2Primary": false,
                     "ap1ID": 1744403695741,
                     "ap2ID": 1744382116287
                 },
                 {
                     "ap1Name": "number or geometry",
                     "ap2Name": "x",
+                    "ap2Primary": false,
                     "ap1ID": 1744403707539,
                     "ap2ID": 1744403716902
                 },
                 {
                     "ap1Name": "number or geometry",
                     "ap2Name": "x",
+                    "ap2Primary": false,
                     "ap1ID": 1744403707539,
                     "ap2ID": 1744403990366
                 },
                 {
                     "ap1Name": "result",
                     "ap2Name": "x length",
+                    "ap2Primary": false,
                     "ap1ID": 1744403716902,
                     "ap2ID": 1744403653981
                 },
                 {
                     "ap1Name": "number or geometry",
                     "ap2Name": "x",
+                    "ap2Primary": false,
                     "ap1ID": 1744403784436,
                     "ap2ID": 1744403855662
                 },
                 {
                     "ap1Name": "result",
                     "ap2Name": "zDist",
+                    "ap2Primary": false,
                     "ap1ID": 1744403855662,
                     "ap2ID": 1744403695741
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "Shape 5",
+                    "ap2Primary": false,
                     "ap1ID": 1744403973709,
                     "ap2ID": 1744382061378
                 },
                 {
                     "ap1Name": "result",
                     "ap2Name": "xDist",
+                    "ap2Primary": false,
                     "ap1ID": 1744403990366,
                     "ap2ID": 1744403973709
                 }
@@ -1089,7 +1130,7 @@
                 [
                     {
                         "id": 1,
-                        "rotate": 120,
+                        "rotate": 90,
                         "translate": {
                             "x": 5.00713015997089,
                             "y": 4.950246754738611
@@ -1099,8 +1140,8 @@
                         "id": 0,
                         "rotate": 90,
                         "translate": {
-                            "x": 5.603544687317047,
-                            "y": 19.821862270822944
+                            "x": 5.6,
+                            "y": 17
                         }
                     },
                     {
@@ -1157,46 +1198,75 @@
             "compiledBom": {}
         },
         {
-            "atomType": "RegularPolygon",
-            "name": "RegularPolygon",
-            "x": 0.7141927083333333,
-            "y": 0.7708333333333333,
-            "uniqueID": "74c40aa2-cbe6-482d-9de9-21c89c247c0f",
+            "atomType": "Gcode",
+            "name": "Gcode",
+            "x": 0.701171875,
+            "y": 0.800595238095238,
+            "uniqueID": "2a60db38-c1ba-4e4a-a1d4-ded8552f1804",
             "ioValues": [
                 {
-                    "name": "number of sides",
-                    "ioValue": 6
+                    "name": "Geometry",
+                    "ioValue": 1744404018630
                 },
                 {
-                    "name": "diameter",
-                    "ioValue": 10
+                    "name": "Tool Size",
+                    "ioValue": 0.25
+                },
+                {
+                    "name": "Passes",
+                    "ioValue": 3
+                },
+                {
+                    "name": "Speed",
+                    "ioValue": 90
+                },
+                {
+                    "name": "Cut Through",
+                    "ioValue": 1.5
+                },
+                {
+                    "name": "Part Name",
+                    "ioValue": "mini-stool-"
                 }
             ],
-            "description": "Creates a new regular polygon. Corners are on the diameter."
+            "description": "Generates Maslow gcode from the input geometry. For single parts, generates one gcode file. For assemblies, extracts individual parts, sorts them based on the selected direction (Left, Right, Top, or Bottom) using bounding boxes, generates gcode for each part sequentially, and concatenates the results into one file.",
+            "partName": "mini-stool-",
+            "sortDirection": "Left"
         }
     ],
     "allConnectors": [
         {
-            "ap1Name": "geometry or number",
+            "ap1Name": "Geometry",
             "ap2Name": "Shape 1",
+            "ap2Primary": false,
             "ap1ID": 1744381243719,
             "ap2ID": 1744404077436
         },
         {
-            "ap1Name": "geometry or number",
+            "ap1Name": "Geometry",
             "ap2Name": "geometry",
+            "ap2Primary": false,
             "ap1ID": 1744381251698,
             "ap2ID": 1744404018630
         },
         {
-            "ap1Name": "geometry or number",
+            "ap1Name": "Geometry",
             "ap2Name": "Shape 2",
+            "ap2Primary": false,
             "ap1ID": 1744381251698,
             "ap2ID": 1744404077436
         },
         {
             "ap1Name": "geometry",
+            "ap2Name": "Geometry",
+            "ap2Primary": false,
+            "ap1ID": 1744404018630,
+            "ap2ID": "2a60db38-c1ba-4e4a-a1d4-ded8552f1804"
+        },
+        {
+            "ap1Name": "geometry",
             "ap2Name": "number or geometry",
+            "ap2Primary": false,
             "ap1ID": 1744404077436,
             "ap2ID": 1744381235338
         }
