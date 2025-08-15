@@ -1232,6 +1232,50 @@
             "description": "Generates Maslow gcode from the input geometry. For single parts, generates one gcode file. For assemblies, extracts individual parts, sorts them based on the selected direction (Left, Right, Top, or Bottom) using bounding boxes, generates gcode for each part sequentially, and concatenates the results into one file.",
             "partName": "mini-stool-",
             "sortDirection": "Left"
+        },
+        {
+            "atomType": "Rectangle",
+            "name": "Rectangle",
+            "x": 0.4993489583333333,
+            "y": 0.2767857142857143,
+            "uniqueID": "c29753ff-9882-44c2-8ebc-1134f16d4354",
+            "ioValues": [
+                {
+                    "name": "x length",
+                    "ioValue": 10
+                },
+                {
+                    "name": "y length",
+                    "ioValue": 10
+                }
+            ],
+            "description": "Creates a new rectangle."
+        },
+        {
+            "atomType": "Move",
+            "name": "Move",
+            "x": 0.6653645833333334,
+            "y": 0.22023809523809526,
+            "uniqueID": "bad4a43a-3789-4737-bd35-bd9518d82b32",
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": "c29753ff-9882-44c2-8ebc-1134f16d4354"
+                },
+                {
+                    "name": "xDist",
+                    "ioValue": 0
+                },
+                {
+                    "name": "yDist",
+                    "ioValue": 0
+                },
+                {
+                    "name": "zDist",
+                    "ioValue": 0
+                }
+            ],
+            "description": "Moves a shape laterally in X, Y, Z."
         }
     ],
     "allConnectors": [
@@ -1269,6 +1313,13 @@
             "ap2Primary": false,
             "ap1ID": 1744404077436,
             "ap2ID": 1744381235338
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": "c29753ff-9882-44c2-8ebc-1134f16d4354",
+            "ap2ID": "bad4a43a-3789-4737-bd35-bd9518d82b32"
         }
     ],
     "unitsKey": "Inches",
