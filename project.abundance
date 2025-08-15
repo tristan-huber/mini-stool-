@@ -1157,29 +1157,11 @@
             "compiledBom": {}
         },
         {
-            "atomType": "Rectangle",
-            "name": "Rectangle",
-            "x": 0.536118363794604,
-            "y": 0.21142857142857144,
-            "uniqueID": "8f73dda3-2937-4bc0-ac7a-d3deaa07c3d9",
-            "ioValues": [
-                {
-                    "name": "x length",
-                    "ioValue": 10
-                },
-                {
-                    "name": "y length",
-                    "ioValue": 11
-                }
-            ],
-            "description": "Creates a new rectangle."
-        },
-        {
             "atomType": "RegularPolygon",
             "name": "RegularPolygon",
-            "x": 0.7278645833333334,
-            "y": 0.8,
-            "uniqueID": "fb1b8d47-8df4-4898-a39d-bc9b56ed0a01",
+            "x": 0.7141927083333333,
+            "y": 0.7708333333333333,
+            "uniqueID": "74c40aa2-cbe6-482d-9de9-21c89c247c0f",
             "ioValues": [
                 {
                     "name": "number of sides",
@@ -1191,24 +1173,6 @@
                 }
             ],
             "description": "Creates a new regular polygon. Corners are on the diameter."
-        },
-        {
-            "atomType": "Rectangle",
-            "name": "Rectangle",
-            "x": 0.7486979166666666,
-            "y": 0.5885714285714286,
-            "uniqueID": "0f4b5515-c2ad-439b-9ed6-6fc3441621cd",
-            "ioValues": [
-                {
-                    "name": "x length",
-                    "ioValue": 10
-                },
-                {
-                    "name": "y length",
-                    "ioValue": 10
-                }
-            ],
-            "description": "Creates a new rectangle."
         }
     ],
     "allConnectors": [
