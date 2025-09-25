@@ -25,7 +25,7 @@
                 {
                     "name": "Shape 1",
                     "ioValue": {
-                        "geometry": "move-extrude-circle-5.5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-0.75-0-0-15",
+                        "geometry": "move-extrude-circle-10-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-0.75-0-0-15",
                         "dimension": "3D",
                         "tags": [],
                         "plane": {
@@ -178,8 +178,8 @@
         {
             "atomType": "Gcode",
             "name": "Gcode",
-            "x": 0.701171875,
-            "y": 0.800595238095238,
+            "x": 0.8430989583333334,
+            "y": 0.8314285714285715,
             "uniqueID": "2a60db38-c1ba-4e4a-a1d4-ded8552f1804",
             "ioValues": [
                 {
@@ -263,8 +263,8 @@
             "ioValues": [
                 {
                     "name": "width",
-                    "ioValue": 11,
-                    "currentEquation": null
+                    "ioValue": 20,
+                    "currentEquation": "20"
                 },
                 {
                     "name": "ply thick",
@@ -291,7 +291,7 @@
                     "ioValues": [
                         {
                             "name": "diameter",
-                            "ioValue": 11,
+                            "ioValue": 20,
                             "currentEquation": null
                         }
                     ]
@@ -1395,6 +1395,66 @@
             ],
             "fileTypeVersion": 1,
             "compiledBom": []
+        },
+        {
+            "atomType": "CutLayout",
+            "name": "Cut Layout",
+            "x": 0.6731770833333333,
+            "y": 0.7714285714285715,
+            "uniqueID": "dece51ff-6a5e-4366-8297-cb5c8d9f7474",
+            "ioValues": [
+                {
+                    "name": "Sheet Width",
+                    "ioValue": 96,
+                    "currentEquation": null
+                },
+                {
+                    "name": "Sheet Height",
+                    "ioValue": 48,
+                    "currentEquation": null
+                },
+                {
+                    "name": "Part Padding",
+                    "ioValue": 0.4,
+                    "currentEquation": null
+                }
+            ],
+            "placements": [
+                [
+                    {
+                        "id": 3,
+                        "rotate": 180,
+                        "translate": {
+                            "x": 7.900000000000002,
+                            "y": 9.4
+                        }
+                    },
+                    {
+                        "id": 0,
+                        "rotate": 180,
+                        "translate": {
+                            "x": 10.4019354,
+                            "y": 29.201935400000004
+                        }
+                    },
+                    {
+                        "id": 2,
+                        "rotate": 90,
+                        "translate": {
+                            "x": 20.03871654856359,
+                            "y": 10.899999999999999
+                        }
+                    },
+                    {
+                        "id": 1,
+                        "rotate": 0,
+                        "translate": {
+                            "x": 22.54556714051124,
+                            "y": 23.075000000000003
+                        }
+                    }
+                ]
+            ]
         }
     ],
     "allConnectors": [
@@ -1403,6 +1463,12 @@
             "ap2Name": "number or geometry",
             "ap1ID": 1744404077436,
             "ap2ID": 1744381235338
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap1ID": 1744404077436,
+            "ap2ID": "dece51ff-6a5e-4366-8297-cb5c8d9f7474"
         },
         {
             "ap1Name": "geometry",
@@ -1421,6 +1487,12 @@
             "ap2Name": "Shape 2",
             "ap1ID": 1744381251698,
             "ap2ID": 1744404077436
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap1ID": "dece51ff-6a5e-4366-8297-cb5c8d9f7474",
+            "ap2ID": "2a60db38-c1ba-4e4a-a1d4-ded8552f1804"
         }
     ],
     "unitsKey": "Inches",
